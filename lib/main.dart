@@ -47,11 +47,11 @@ class HomePage extends StatelessWidget {
 class ProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final nome = ModalRoute.of(context)!.settings.arguments as String;
+    final name = ModalRoute.of(context)!.settings.arguments as String;
     return Scaffold(
       appBar: AppBar(
         title: Center(
-          child: Text('ProfilePage: $nome'),
+          child: Text('ProfilePage: $name'),
         ),
       ),
     );
